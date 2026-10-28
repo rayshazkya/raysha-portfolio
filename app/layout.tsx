@@ -42,6 +42,14 @@ export const metadata: Metadata = {
   title: "Raysha Tazkiya Rahim — Creative Portfolio | UI/UX, Web & Data Science",
   description:
     "Personal portfolio of Raysha Tazkiya Rahim (Kiya), an Informatics undergraduate at Universitas Syiah Kuala (USK) with hands-on experience in UI/UX design, full-stack web development, data science & NLP, and digital content creation.",
+  icons: {
+    icon: [
+      { url: "/icon.png", sizes: "64x64", type: "image/png" },
+      { url: "/icon.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
+    shortcut: ["/icon.png"],
+  },
   keywords: [
     "Raysha Tazkiya Rahim",
     "Kiya Portfolio",
